@@ -2896,7 +2896,6 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
           iframe = $('iframe', video);
 
       if (iframe.length > 0) {
-        iframe.attr('data-src', iframe[0].src);
         iframe.attr('src', iframe.attr('src'));
         video.hide();
       }
@@ -2907,18 +2906,6 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
           iframe = video.find('iframe');
 
       if (iframe.length > 0) {
-        var data_src = iframe.attr('data-src');
-        if (typeof data_src === 'string') {
-          var video_url = document.createElement('a');
-          video_url.href = data_src;
-          if (video_url.protocol === 'https:' || video_url.protocol === 'http:') {
-            iframe[0].src = video_url.href;
-          }
-        } else {
-          var src = iframe[0].src;
-          iframe[0].src = undefined;
-          iframe[0].src = src;
-        }
         video.show();
       }
     },
