@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The AKBC 2027 workshop at ACL in Kyoto, Japan.">
+    <title>AKBC 2027</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #202c3a;
+        background: #f5f7fa;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+      }
+
+      main {
+        width: min(100% - 2rem, 880px);
+        margin: 4rem auto;
+        padding: clamp(2rem, 7vw, 5rem);
+        background: #fff;
+        border-top: 6px solid #b33a3a;
+        box-shadow: 0 12px 40px rgb(32 44 58 / 8%);
+      }
+
+      .eyebrow {
+        margin: 0 0 0.75rem;
+        color: #a12f35;
+        font-size: 0.875rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.75rem, 9vw, 5rem);
+        line-height: 1;
+      }
+
+      .event-details {
+        margin: 1.5rem 0 3rem;
+        color: #44566c;
+        font-size: 1.2rem;
+        line-height: 1.7;
+      }
+
+      h2 {
+        margin: 0 0 1rem;
+        font-size: 1.25rem;
+      }
+
+      .organizers {
+        margin: 0;
+        line-height: 1.8;
+      }
+
+      .organizers sup {
+        margin-left: 0.1em;
+        color: #a12f35;
+        font-weight: 700;
+      }
+
+      .affiliations {
+        margin: 1rem 0 0;
+        padding-left: 1.25rem;
+        color: #44566c;
+        line-height: 1.8;
+      }
+
+      @media (max-width: 520px) {
+        main {
+          margin: 1rem auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">At the ACL conference</p>
+      <h1>AKBC 2027</h1>
+      <p class="event-details">
+        August 18 or 19, 2027<br>
+        Kyoto, Japan
+      </p>
+
+      <section aria-labelledby="organizers-heading">
+        <h2 id="organizers-heading">Organizers</h2>
+        <p class="organizers">
+          Jan-Christoph Kalo<sup>1</sup> &emsp;
+          Russa Biswas<sup>2</sup> &emsp;
+          Simon Razniewski<sup>3</sup><br>
+          <strong>Fabian M. Suchanek<sup>4</sup></strong> &emsp;
+          <strong>Andrew McCallum<sup>5</sup></strong>
+        </p>
+        <ol class="affiliations">
+          <li>University of Amsterdam</li>
+          <li>Aalborg University</li>
+          <li>ScaDS.AI &amp; TU Dresden</li>
+          <li>Télécom Paris, Institut Polytechnique de Paris</li>
+          <li>University of Massachusetts Amherst</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
