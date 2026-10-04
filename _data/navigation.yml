@@ -13,6 +13,10 @@
   url: "/#dates"
   side: left
 
+- title: Shared Task
+  url: "/#shared-task"
+  side: left
+
 - title: Organization
   url: "/#organization"
   side: left
