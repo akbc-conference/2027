@@ -1,0 +1,183 @@
+- name: Sameer Singh
+  url: https://sameersingh.org/
+  affiliation: University of California, Irvine
+
+- name: Gerhard Weikum
+  url: https://people.mpi-inf.mpg.de/~weikum/
+  affiliation: Max Planck Institute for Informatics
+
+- name: Sunita Sarawagi
+  url: https://www.cse.iitb.ac.in/~sunita/
+  affiliation: IIT Bombay
+
+- name: Annalisa Gentile
+  url: https://anligentile.github.io/
+  affiliation: IBM
+
+- name: Nitisha Jain
+  url: https://nitishajain.github.io/
+  affiliation: Microsoft Research Cambridge
+
+- name: Sören Auer
+  url: https://research.uni-hannover.de/en/persons/s%C3%B6ren-auer/
+  affiliation: University of Hannover
+
+- name: Danqi Chen
+  url: https://www.cs.princeton.edu/~danqic/
+  affiliation: Princeton University
+
+- name: Doug Downey
+  url: https://users.cs.northwestern.edu/~ddowney/
+  affiliation: Allen Institute for AI / Northwestern University
+
+- name: Zifeng Ding
+  url: https://www.cst.cam.ac.uk/people/zd320
+  affiliation: Cambridge University
+
+- name: Moy Yuan
+  url: https://www.moyyuan.com/
+  affiliation: Amazon
+  
+- name: Paolo Papotti
+  url: https://papotti.eurecom.io/
+  affiliation: EURECOM
+
+- name: Gerard de Melo
+  url: http://gerard.demelo.org/
+  affiliation: Hasso Plattner Institute
+
+- name: Steffen Staab
+  url: https://www.ki.uni-stuttgart.de/institute/team/Staab-00004/
+  affiliation: University of Stuttgart
+
+- name: Rainer Gemulla
+  url: https://www.uni-mannheim.de/dws/people/professors/prof-dr-rainer-gemulla/
+  affiliation: University of Mannheim
+
+- name: Luis Galárraga
+  url: https://luisgalarraga.de/
+  affiliation: INRIA Rennes
+
+- name: Lihu Chen
+  url: https://chenlihu.com/
+  affiliation: Imperial College London
+
+- name: Advitya Gemawat
+  url: https://www.microsoft.com/en-us/research/people/agemawat/
+  affiliation: Microsoft Research
+  
+- name: Estevam Hruschka
+  url: https://megagon.ai/our-team/estevam-hruschka/
+  affiliation: Megagon Labs
+
+- name: Jingbo Shang
+  url: https://shangjingbo1226.github.io/
+  affiliation: University of California, San Diego
+
+- name: Roi Cohen
+  url: https://hpi.de/en/de-melo/team.html
+  affiliation: HPI
+
+- name: Hiba Arnaout
+  url: https://hibaarnaout.com/
+  affiliation: Darmstadt University
+
+- name: Shrestha Ghosh
+  url: https://ghoshs.github.io/
+  affiliation: Tübingen University
+
+- name: Paul Groth
+  url: https://pgroth.com/
+  affiliation: University of Amsterdam
+
+- name: Filip Ilievski
+  url: https://www.ilievski.info/
+  affiliation: Vrije Universiteit Amsterdam
+
+- name: Russa Biswas
+  url: https://vbn.aau.dk/en/persons/rubi/
+  affiliation: Aalborg University
+
+- name: Derry Wijaya
+  url: https://derrywijaya.github.io/
+  affiliation: Monash University Indonesia
+
+- name: Pierre-Henri Paris
+  url: https://phparis.net/
+  affiliation: Paris-Saclay University
+
+- name: Daniel Daza
+  url: https://dfdazac.github.io/
+  affiliation: Vrije Universiteit Amsterdam
+
+- name: Jieying Chen
+  url: https://jieyingchenchen.github.io/
+  affiliation: Vrije Universiteit Amsterdam
+
+- name: Selene Báez Santamaría
+  url: https://selbaez.github.io/
+  affiliation: University of Zurich
+
+- name: Mohamed Gad-Elrab
+  url: https://gadelrab.de/
+  affiliation: Bosch Research
+
+- name: Benno Kruit
+  url: http://bennokruit.nl/
+  affiliation: Amsterdam UMC
+
+- name: Andrea Schimmenti
+  url: https://andreaschimmenti.it/
+  affiliation: Università di Bologna
+
+- name: Roman Klinger
+  url: https://www.romanklinger.de/
+  affiliation: University of Bamberg
+
+- name: Jay Pujara
+  url: https://www.jaypujara.org/
+  affiliation: USC Information Sciences Institute
+
+- name: Zachary Ives
+  url: https://www.cis.upenn.edu/~zives
+  affiliation: University of Pennsylvania
+
+- name: Samy Haffoudhi
+  url: https://samyhaff.github.io/
+  affiliation: Institut Polytechnique de Paris
+
+- name: François Crespin
+  url: https://www.linkedin.com/in/fran%C3%A7ois-crespin-3b1477230/
+  affiliation: Institut Polytechnique de Paris
+
+- name: Christian Bizer
+  url: https://www.uni-mannheim.de/dws/people/professors/prof-dr-christian-bizer/
+  affiliation: University of Mannheim
+
+- name: Aparna Varde
+  url: https://portal.findresearcher.sdu.dk/en/persons/apva/
+  affiliation: University of Southern Denmark
+
+- name: Wassila Ouerdane
+  url: https://wassilaouerdane.github.io/
+  affiliation: CentraleSupélec, Paris-Saclay University
+
+- name: Raphaël Troncy
+  url: https://www.eurecom.fr/en/people/troncy-raphael
+  affiliation: EURECOM
+
+- name: Jonathan Berant
+  url: https://www.cs.tau.ac.il/~joberant/
+  affiliation: Tel-Aviv University/Google DeepMind
+
+- name: David Campos
+  url: https://d-gcc.github.io/
+  affiliation: University of Amsterdam
+
+- name: Robin Jia
+  url: https://robinjia.github.io/
+  affiliation: University of Southern California
+
+- name: Sai Kolapudi
+  url: https://www.linkedin.com/in/sai-kolapudi
+  affiliation: Amazon Web Services

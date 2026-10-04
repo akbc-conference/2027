@@ -1,289 +1,190 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The AKBC workshop at ACL 2027 in Kyoto, Japan.">
-    <title>AKBC 2027 · Knowledge at the Center</title>
-    <style>
-      :root {
-        color-scheme: light;
-        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        color: #172c32;
-        background: #18343a;
-        font-synthesis: none;
-        text-rendering: optimizeLegibility;
-      }
+---
+title: 11th Workshop on Automated Knowledge Base Construction
+display_title: "11th Workshop on<br>Automated Knowledge Base Construction"
+layout: page-fullwidth
+header:
+  image_fullwidth: "budapest.jpg"
+permalink: /
+---
 
-      * {
-        box-sizing: border-box;
-      }
+Co-located with [EMNLP 2026](https://2026.emnlp.org/) in Budapest, Hungary &mdash; **October 28, 2026** Room F8.
 
-      html {
-        scroll-behavior: smooth;
-      }
+While Large Language Models (LLMs) have revolutionized NLP, they remain prone to hallucinations, reasoning "mode-collapse" in open-ended generation, and a lack of factual provenance. The Automated Knowledge Base Construction (AKBC) workshop addresses a key missing piece of the generative era: structured knowledge. Knowledge Bases (KBs) serve as ground truth for fact verification, the semantic backbone for constrained decoding in generation, and as a resource behind Retrieval-Augmented Generation (RAG).
 
-      body {
-        min-width: 320px;
-        margin: 0;
-        background: #18343a url("assets/kyoto-landscape.svg") center / cover fixed;
-      }
+The workshop contributes to the growing momentum around integrating structured knowledge into generative models, both at training time and at inference time.
 
-      a {
-        color: inherit;
-      }
+It follows a successful series of previous editions: as an independent conference in [2022](https://akbc.ws/2022), [2021](https://akbc.ws/2021), [2020](https://akbc.ws/2020), and [2019](https://www.akbc.ws/2019); as a workshop in [2017 at NIPS](https://akbc.ws/2017), in [2016 at NAACL](https://akbc.ws/2016), in [2014 at NIPS](https://akbc.ws/2014), in [2013 at CIKM](https://akbc.ws/2013), in [2012 at NAACL](https://akbc.ws/2012); and in 2010 as a stand-alone event in Grenoble, France.
 
-      .skip-link {
-        position: absolute;
-        top: -5rem;
-        left: 1rem;
-        z-index: 2;
-        padding: 0.75rem 1rem;
-        background: #fff;
-      }
+<a name="news"></a>
 
-      .skip-link:focus {
-        top: 1rem;
-      }
+<a class="linkedin-callout" href="https://www.linkedin.com/company/akbc-workshop/" target="_blank" rel="noopener">
+  <span class="linkedin-callout-icon iconfont"></span>
+  <span class="linkedin-callout-text">
+    <strong>Stay in the loop.</strong>
+    Follow AKBC on LinkedIn for deadlines, speaker announcements, and shared task updates.
+  </span>
+  <span class="linkedin-callout-cta">Follow &rarr;</span>
+</a>
 
-      .page {
-        min-height: 100vh;
-        padding: clamp(1rem, 4vw, 3.5rem);
-        background: linear-gradient(90deg, rgb(14 36 40 / 76%), rgb(14 36 40 / 38%) 60%, rgb(14 36 40 / 15%));
-      }
+### Sponsors
 
-      .site-header,
-      main,
-      footer {
-        width: min(100%, 1080px);
-        margin-inline: auto;
-      }
+We are grateful to our sponsors:
 
-      .site-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 2rem;
-        color: #fff;
-      }
+<a href="https://bloomberg.com" style="text-decoration:none; border: none;"><img src="assets/img/bbg-engineering-logo.png" style="margin: 2em; height: 3em; width: auto;"></a> 
+<a href="https://slb.com" style="text-decoration:none; border: none;"><img src="assets/img/slb-logo.svg" style="margin: 2em; height: 6em; width: auto;"></a>
 
-      .wordmark {
-        font-size: 1rem;
-        font-weight: 750;
-        letter-spacing: 0.08em;
-        text-decoration: none;
-      }
+## News
 
-      nav {
-        display: flex;
-        flex-wrap: wrap;
-        gap: clamp(1rem, 3vw, 2rem);
-      }
+- We are grateful to our sponsors [Bloomberg](http://bloomberg.com/) and [SLB](https://www.slb.com/)!
+- September 8th, 2026: Out of 58 submissions, 27 papers were accepted &mdash; see the [list of accepted papers]({{ site.baseurl }}/#papers)
+- September 8th, 2026: [Parisa Kordjamshidi](https://www.cse.msu.edu/~kordjams/) (Michigan State University) is confirmed as a keynote speaker
+- September 1st, 2026: Shared task results are out &mdash; see the winners on the [shared task page]({{ site.baseurl }}/shared-task.html) and the [full final leaderboard](https://www.akbc.ws/2026/AKBC%20Shared%20Task%202026%20Final%20Leaderboard.pdf)
+- August 12th, 2026: [Denny Vrandečić](https://en.wikipedia.org/wiki/Denny_Vrande%C4%8Di%C4%87) (Wikimedia) is confirmed as a keynote speaker
+- July 30th, 2026: [Amir Globerson](https://cs3801.wixsite.com/amirgloberson) (Tel Aviv University &amp; Google) is confirmed as a keynote speaker
+- July 23rd, 2026: [Dan Roth](https://www.cis.upenn.edu/~danroth/) (University of Pennsylvania &amp; Oracle) is confirmed as a keynote speaker
+- May 28th, 2026: [Alon Halevy](https://en.wikipedia.org/wiki/Alon_Halevy) (Google) is confirmed as a keynote speaker
+- May 27th, 2026: The workshop day is fixed to **October 28, 2026**
+- May 21st, 2026: We are excited to announce [Heng Ji](https://siebelschool.illinois.edu/about/people/faculty/hengji) (UIUC) as a keynote speaker
+- May 21st, 2026: We are excited to announce [Mausam](https://www.cse.iitd.ac.in/~mausam/) (IIT Delhi) as a keynote speaker
+- April 27th, 2026: We receive news that the workshop will be held on October 28, 2026
+- April 13th, 2026: The Web page of AKBC goes live
 
-      nav a {
-        color: #f1f4ed;
-        font-size: 0.9rem;
-        text-decoration-thickness: 1px;
-        text-underline-offset: 0.3em;
-      }
+<!--
+<a name="dates"></a>
 
-      .hero {
-        max-width: 740px;
-        padding: clamp(5rem, 16vh, 10rem) 0 clamp(4rem, 12vh, 8rem);
-        color: #fff;
-      }
+## Important Dates
 
-      .eyebrow {
-        margin: 0 0 1rem;
-        color: #f0c79b;
-        font-size: 0.78rem;
-        font-weight: 750;
-        letter-spacing: 0.17em;
-        text-transform: uppercase;
-      }
+<table class="dates-table">
+  <tbody>
+    <tr><td>Direct submission (research + vision)</td><td><span class="date-pill">July 27, 2026</span></td></tr>
+    <tr><td>Direct submission (shared task)</td><td><span class="date-pill">August 15, 2026</span></td></tr>
+    <tr><td>ARR commitment (research)</td><td><span class="date-pill">August 25, 2026</span></td></tr>
+    <tr><td>Notification of acceptance</td><td><span class="date-pill">September 1, 2026</span></td></tr>
+    <tr><td>Camera ready due</td><td><span class="date-pill">September 10, 2026</span></td></tr>
+    <tr><td>Workshop date</td><td><span class="date-pill date-pill-highlight">October 28, 2026</span></td></tr>
+  </tbody>
+</table>
 
-      h1 {
-        max-width: 10ch;
-        margin: 0;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(3.5rem, 10vw, 7.5rem);
-        font-weight: 500;
-        letter-spacing: -0.055em;
-        line-height: 0.95;
-      }
+<a name="cfp"></a>
 
-      .hero-summary {
-        max-width: 42rem;
-        margin: 1.5rem 0 0;
-        color: #f2f0e9;
-        font-size: clamp(1.1rem, 2.2vw, 1.4rem);
-        line-height: 1.65;
-      }
+## Call for Papers
 
-      .event-meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem 2rem;
-        margin-top: 2.25rem;
-        color: #fff;
-        font-weight: 650;
-      }
+The 11th Workshop on Automated Knowledge Base Construction (AKBC) returns in 2026, bringing together researchers and practitioners working on the construction, integration, and use of structured knowledge in the era of large language models (LLMs). As LLMs continue to transform NLP, challenges such as hallucinations, lack of provenance, and limited reasoning reliability highlight the need for robust, explicit, and usable knowledge representations. AKBC sits at the intersection of natural language processing, knowledge representation, databases, and machine learning, with a particular focus on how symbolic structure can ground, constrain, and enhance generative models.
 
-      .event-meta span::before {
-        margin-right: 0.6rem;
-        color: #f0c79b;
-        content: "—";
-      }
+Topics of interest include, but are not limited to:
 
-      .content {
-        display: grid;
-        grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
-        gap: clamp(2rem, 6vw, 5rem);
-        padding: clamp(2rem, 6vw, 4.5rem);
-        background: #fbfaf6;
-        box-shadow: 0 1.5rem 5rem rgb(5 22 25 / 25%);
-      }
+- **Knowledge for generative models:** knowledge-aware pretraining and fine-tuning; factuality, attribution, and verification; neuro-symbolic and hybrid methods; injecting and editing knowledge in LLMs
+- **Building and maintaining knowledge:** extraction and consolidation from text and multimodal data; knowledge graphs, ontologies, and schema alignment; KB construction, completion, and continual updates
+- **Retrieval and reasoning:** retrieval-augmented generation with structured sources; graph-based and knowledge-intensive question answering; multi-hop reasoning and interaction with KBs
+- **Vision papers:** new roles for structured knowledge in generative models; new architectures, benchmarks, and research agendas for knowledge-grounded generation; the future of knowledge bases, reasoning, and trustworthy AI
 
-      section + section {
-        margin-top: 2.5rem;
-      }
+### Submission Types
 
-      h2 {
-        margin: 0 0 1rem;
-        color: #a24e3f;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.7rem;
-        font-weight: 500;
-      }
+- **Regular research papers** (8 pages + references), via [ARR commitment](https://openreview.net/group?id=EMNLP/2026/Workshop/AKBC_ARR_Commitment) or [direct submission](https://openreview.net/group?id=EMNLP/2026/Workshop/AKBC)
+- **Vision papers** (4 pages + references), via [direct submission](https://openreview.net/group?id=EMNLP/2026/Workshop/AKBC): bold ideas, emerging directions, and unifying perspectives
+- **Shared task papers** (4 pages + references), via [direct submission](https://openreview.net/group?id=EMNLP/2026/Workshop/LM-KBC_Shared_Task): system descriptions and analyses for the [AKBC shared task]({{ site.baseurl }}/shared-task.html)
 
-      .content p {
-        max-width: 42rem;
-        margin: 0;
-        color: #46575a;
-        line-height: 1.8;
-      }
+All submissions follow the [EMNLP formatting instructions](https://2026.emnlp.org/calls/main_conference_papers/#paper-submission-details), are double-blind, and appear in the workshop proceedings, so double submissions to other venues with proceedings are not allowed. An optional limitations section and appendix do not count towards the page limit, but we cannot guarantee that the appendix will be part of the proceedings.
 
-      .organizers {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-      }
+-->
 
-      .organizers li {
-        padding: 0.75rem 0;
-        border-bottom: 1px solid #e4e1d9;
-        line-height: 1.55;
-      }
+<a name="papers"></a>
 
-      .organizers li:last-child {
-        border-bottom: 0;
-      }
+## Accepted Papers
 
-      .organizers sup {
-        color: #a24e3f;
-        font-weight: 700;
-      }
+Accepted papers are presented as posters, with a selection invited for lightning talks. Remote viewing is possible; remote authors upload their poster to the workshop website instead of presenting physically.
 
-      .affiliations {
-        margin: 1.25rem 0 0;
-        padding-left: 1.25rem;
-        color: #657477;
-        font-size: 0.9rem;
-        line-height: 1.8;
-      }
+### Research Papers
 
-      footer {
-        padding: 1.5rem 0 0.25rem;
-        color: #e6e8df;
-        font-size: 0.8rem;
-        line-height: 1.6;
-      }
+<ul class="papers-list">
+{% for p in site.data.papers %}
+  <li><span class="paper-title">{{ p.title }}</span><span class="paper-authors">{{ p.authors }}</span></li>
+{% endfor %}
+</ul>
 
-      footer a {
-        text-underline-offset: 0.2em;
-      }
+### Shared Task Papers
 
-      @media (max-width: 700px) {
-        .site-header {
-          align-items: flex-start;
-          flex-direction: column;
-          gap: 1rem;
-        }
+<ul class="papers-list">
+{% for p in site.data.shared_task_papers %}
+  <li><span class="paper-title">{{ p.title }}</span><span class="paper-authors">{{ p.authors }}</span></li>
+{% endfor %}
+</ul>
 
-        .content {
-          grid-template-columns: 1fr;
-        }
+<a name="shared-task"></a>
 
-        .page {
-          background: linear-gradient(180deg, rgb(14 36 40 / 73%), rgb(14 36 40 / 36%) 65%, rgb(14 36 40 / 12%));
-        }
-      }
+## Shared Task
 
-      @media (prefers-reduced-motion: reduce) {
-        html {
-          scroll-behavior: auto;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <div class="page">
-      <header class="site-header">
-        <a class="wordmark" href="#top">AKBC · 2027</a>
-        <nav aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#event">Event details</a>
-          <a href="#organizers">Organizers</a>
-        </nav>
-      </header>
+Large language models contain a substantial amount of factual knowledge. Turning that knowledge into reliable knowledge base entries, however, is much harder than answering a single factual question.
 
-      <main id="main-content">
-        <section class="hero" id="top" aria-labelledby="page-title">
-          <p class="eyebrow">At ACL 2027 · Kyoto, Japan</p>
-          <h1 id="page-title">Knowledge at the center.</h1>
-          <p class="hero-summary">The AKBC workshop brings together ideas and research around knowledge and language.</p>
-          <div class="event-meta" id="event">
-            <span>August 18 or 19, 2027</span>
-            <span>Kyoto, Japan</span>
-          </div>
-        </section>
+Given a subject *s* and a relation *r*, predict the complete set of correct object strings {o₁, o₂, …, oₖ}. Unlike standard factual QA, a subject may have zero, one, or many correct objects. The goal is to construct a complete and precise KB entry.
 
-        <div class="content">
-          <div>
-            <section id="about" aria-labelledby="about-title">
-              <h2 id="about-title">About the workshop</h2>
-              <p>Workshop information, including the call for papers and program, will be announced here.</p>
-            </section>
+Further details are on the [shared task page]({{ site.baseurl }}/shared-task.html).
 
-            <section aria-labelledby="details-title">
-              <h2 id="details-title">Event details</h2>
-              <p>AKBC 2027 will be held alongside ACL in Kyoto, Japan. The workshop date is to be confirmed.</p>
-            </section>
-          </div>
+<a name="speakers"></a>
 
-          <section id="organizers" aria-labelledby="organizers-title">
-            <h2 id="organizers-title">Organizers</h2>
-            <ul class="organizers">
-              <li>Jan-Christoph Kalo<sup>1</sup></li>
-              <li>Russa Biswas<sup>2</sup></li>
-              <li>Simon Razniewski<sup>3</sup></li>
-              <li>Fabian M. Suchanek<sup>4</sup></li>
-              <li><strong>Andrew McCallum<sup>5</sup></li>
-            </ul>
-            <ol class="affiliations">
-              <li>University of Amsterdam</li>
-              <li>Aalborg University</li>
-              <li>ScaDS.AI &amp; TU Dresden</li>
-              <li>Télécom Paris, Institut Polytechnique de Paris</li>
-              <li>University of Massachusetts Amherst</li>
-            </ol>
-          </section>
-        </div>
-      </main>
+## Invited Speakers
 
-      <footer>
-        <p>Kyoto background illustration created for this site. No external image source or attribution required.</p>
-      </footer>
-    </div>
-  </body>
-</html>
+<div class="speakers-grid">
+{% for s in site.data.speakers %}
+  <div class="speaker-card">
+    <a href="{{ s.url }}"><img src="{{ site.baseurl }}/assets/img/{{ s.thumbnail }}" alt="{{ s.speaker }}" {% if s.photo_class %}class="{{ s.photo_class }}"{% endif %}></a>
+    <div class="speaker-name"><a href="{{ s.url }}">{{ s.speaker }}</a></div>
+    <div class="speaker-affil">{{ s.institution }}</div>
+  </div>
+{% endfor %}
+</div>
+
+<a name="schedule"></a>
+
+## Provisional Schedule
+
+The program is provisional and subject to change.
+
+<table class="schedule-table">
+  <thead>
+    <tr><th scope="col">Time</th><th scope="col">Item</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>08:30–08:45</td><td>Opening</td></tr>
+    <tr><td>08:45–09:15</td><td>Invited talk 1: Denny Vrandecic</td></tr>
+    <tr><td>09:15–09:45</td><td>Invited talk 2: Mausam</td></tr>
+    <tr><td>09:45–10:15</td><td>Invited talk 3: Heng Ji: Constructing a 16-Million-Edge Knowledge Network for Agentic Scientific Discovery</td></tr>
+    <tr><td>10:15–10:30</td><td>Featured paper 1: Explaining Textual Entailment with Lexical Entailments: Using LLMs to Supply Lexical Relations for Formal Proofs, de Jong et al.</td></tr>
+    <tr><td>10:30–11:00</td><td>Coffee break</td></tr>
+    <tr><td>11:00–11:30</td><td>Invited talk 4: Amir Globerson</td></tr>
+    <tr><td>11:30–12:00</td><td>Invited talk 5: Parisa Kordjamshidi</td></tr>
+    <tr><td>12:00–12:15</td><td>Featured paper 2: Zero-Shot Relation Classification with Large Language Models: Binary Prompting and Relevance Elicitation. Alemany et al.</td></tr>
+    <tr><td>12:15–12:30</td><td>Featured paper 3: GRACE-Mem: Graph Retrieval with Agentic Curation of Evidence for Long-Term Conversational Memory, Wang et al.</td></tr>
+    <tr><td>12:30–13:30</td><td>Lunch break</td></tr>
+    <tr><td>13:45–14:30</td><td>Shared task session</td></tr>
+    <tr><td>14:30–16:00</td><td>Poster session</td></tr>
+    <tr><td>15:30–16:00</td><td>Coffee break (overlapping with posters)</td></tr>
+    <tr><td>16:00-16:30</td><td>Invited talk 6: Alon Halevy: Designing Knowledge Agents</td></tr>
+    <tr><td>16:30–17:00</td><td>Invited talk 7: Dan Roth</td></tr>
+    <tr><td>17:00–17:15</td><td>Community discussion</td></tr>
+    <tr><td>17:15–17:30</td><td>Closing</td></tr>
+    <tr><td>18:00-open end</td><td>AKBC reception at Sky bar of Expo Tower Hotel (conference hotel) (TBC)</td></tr>
+  </tbody>
+</table>
+
+<a name="organization"></a>
+
+## Organization
+
+### Organizing Committee
+
+<ul class="organizers-list">
+{% for o in site.data.organizers %}
+  <li>{% if o.url %}<a href="{{ o.url }}">{{ o.name }}</a>{% else %}{{ o.name }}{% endif %}, {{ o.location }}</li>
+{% endfor %}
+</ul>
+
+Contact us at [akbc2026@gmail.com](mailto:akbc2026@gmail.com) for workshop inquiries, or at [akbc2026-shared-task@googlegroups.com](mailto:akbc2026-shared-task@googlegroups.com) for shared task inquiries.
+
+### Program Committee
+
+<ul>
+{% for p in site.data.pc %}
+  <li>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.affiliation %} ({{ p.affiliation }}){% endif %}</li>
+{% endfor %}
+</ul>

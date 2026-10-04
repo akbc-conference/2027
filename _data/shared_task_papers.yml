@@ -1,0 +1,52 @@
+# Accepted shared task papers at AKBC 2026.
+
+- title: "🥇 Winner — Coverage Is Not Knowledge: Why Closed-Book Knowledge Base Construction Looks Selection Bound"
+  authors: "Maksim Silchenko"
+
+- title: "🥈 2nd place — MAVE: Multi-Angle Voting for Emission in Closed-Book Knowledge Base Construction"
+  authors: "Jonas Kunze, Andreas Both"
+
+- title: "🥉 3rd place — The Instruction Tax on Factual Recall: Base Models Can Beat Their Instruction-Tuned Counterparts"
+  authors: "Christophe Khalil, Aya Mourad"
+
+- title: "Closed-Book Knowledge Base Construction with Calibrated Abstention and Numeric Self-Consistency"
+  authors: "Tanvir Ahmed"
+
+- title: "A Forced Answer Channel for Closed-Book Knowledge Base Construction at LM-KBC 2026"
+  authors: "Yiqun Sun, Pengfei Wei, Lawrence B. Hsieh"
+
+- title: "REAP: Relation-Aware Elicitation and Parsing for Closed-Book Knowledge Base Construction from LLMs"
+  authors: "Thanh-Dan Bui, Do Thanh Trung, Tuan-Phong Nguyen"
+
+- title: "SetProbe: Description-First Relation-Wise Self-Consistency for Closed-Book Knowledge Base Construction"
+  authors: "Jannic Alexander Cutura"
+
+- title: "Knowledge Base Construction from Language Models: Mechanisms and Calibrations for Multi-Object Relational Extraction under Parameter Budgets"
+  authors: "Chengcheng Wei, Ze Chen, Jiewen Zheng, Jiarong He"
+
+- title: "Pre-training Aware Directed Reasoning for Closed-Book Knowledge Base Construction"
+  authors: "Mikołaj Tym"
+
+- title: "Exemplars Primarily Shift Retrieval, Verification Instructions Can Shift Rejection: An Anatomy of Inference-Time Interventions for Closed-Book Knowledge Base Construction"
+  authors: "Takashi Sasaki"
+
+- title: "COVER-KBC: Evidence-Centric Adaptive Inference for Closed-Book Knowledge Base Construction"
+  authors: "Quoc-Linh Vo"
+
+- title: "MuseList: Confidence-Gated Multi-Surface Recall for Closed-Book Knowledge Base Construction"
+  authors: "Adrian Zimmermann"
+
+- title: "One Workflow Does Not Fit All Relations: A System Description for the AKBC 2026 LM-KBC Shared Task"
+  authors: "Andreea-Elena Cochintele, Anca Mădălina Dobrovăț, Sergiu Nisioi"
+
+- title: "CoRe: Construct-versus-Recall Routing for Knowledge Base Construction Under a Parameter Budget"
+  authors: "Fatih Naufal Habibillah, Filbert Aurelian Tjiaranata"
+
+- title: "Ensembling Elicitation Strategies for Knowledge Base Construction"
+  authors: "Vlad-Madalin Ungureanu, Neacșu Matei, Ianis Belu"
+
+- title: "DataMind at AKBC Shared Task 2026: Relation-Specific Multiple Prompting for Closed-Book Knowledge Base Completion"
+  authors: "Tanaree Patcharatrakul, Peerapon Vateekul"
+
+- title: "Relation-Specific Elicitation of a Base Model under a 32B Closed-Book Budget for LM-KBC 2026"
+  authors: "Ruggero Marino Lazzaroni, Tim Booker, Pau Soler Valadés, Mathias Angermaier, Kirill Solovev"

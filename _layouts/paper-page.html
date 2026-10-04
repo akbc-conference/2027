@@ -1,0 +1,80 @@
+---
+layout: default
+format: paper-page
+---
+
+{% for paper in site.data.papers %}
+	{% if paper['pdf'] == page.pdf %}
+		{% assign this_paper = paper %}
+    {% endif %}
+{% endfor %}
+
+{% assign url = site.baseurl | prepend: site.url %}
+
+<ul class="breadcrumbs">
+    <li><a href="{{ url }}/papers">Papers</a></li>
+</ul>
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				<h2>{{ this_paper.title }}</h2>
+			</header>
+
+			<!-- Authors -->
+			<h4 class="subheader">
+				{% assign num = this_paper.authors | size %}
+				{% for i in (0..num) limit: num %}
+					{%- if this_paper.author_profiles[i] == "" -%}
+						{{- this_paper.authors[i] -}}
+					{%- else -%}
+					<a href="https://openreview.net/profile?id={{-this_paper.author_profiles[i]-}}">
+						{{- this_paper.authors[i] -}}
+					</a>
+					{%- endif -%}
+					{%- if forloop.last == true -%}
+					.
+					{%- else -%}
+					,&nbsp;
+					{%- endif -%}
+				{% endfor %}
+			</h4>
+
+			<!-- PDF + HTML -->
+			<div class="button-group stack">
+				<!-- <a class="button" href="{{- url -}}/assets/pdfs/{{- this_paper.forum_id -}}.pdf">PDF</a> -->
+				<a class="button" href="{{- url -}}/assets/pdfs/{{- this_paper.pdf -}}.pdf">PDF</a>
+				<!-- {%- if this_paper.html -%}
+				<a class="button grey" href="{{-this_paper.html-}}">Website</a>
+				{%- endif -%}
+				<a class="button grey" href="https://openreview.net/forum?id={{-this_paper.forum_id-}}">OpenReview</a><a class="button" href="https://akbc.apps.allenai.org/poster_{{- this_paper.UID -}}.html">Slides/Video</a> -->
+			</div>
+			
+			<p>
+				<a href="https://doi.org/{{this_paper.doi}}">{{this_paper.doi}}</a>
+			</p>
+
+			<!-- <p class="teaser">
+				<h3>TL;DR</h3>
+				{{ this_paper['TL;DR'] }}
+			</p> -->
+
+			<blockquote>
+				{{ this_paper.abstract }}
+			</blockquote>
+
+			{% assign bibSize = this_paper._bibtex.size | minus: 2 %}
+	
+			<h4>Citation</h4>
+			<pre>
+			{{- this_paper._bibtex | slice: 0, bibSize -}}
+<!-- doi={ {{-this_paper.doi | remove: "doi:" -}} } -->
+}
+</pre>
+
+			{{ content }}
+
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
