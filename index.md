@@ -17,7 +17,7 @@ Co-located with [ACL 2027](https://2027.aclweb.org/) in Kyoto, Japan &mdash; **A
 
 The Automated Knowledge Base Construction (AKBC) workshop brings together researchers and practitioners working on the construction, integration, and use of structured knowledge. Knowledge bases can provide factual grounding, provenance, and reliable reasoning for language technologies, including large language models.
 
-AKBC continues a series of previous editions: as an independent conference in [2022](https://akbc.ws/2022), [2021](https://akbc.ws/2021), [2020](https://akbc.ws/2020), and [2019](https://www.akbc.ws/2019); as a workshop in 2026 at EMNLP, [2017 at NIPS](https://akbc.ws/2017), in [2016 at NAACL](https://akbc.ws/2016), in [2014 at NIPS](https://akbc.ws/2014), in [2013 at CIKM](https://akbc.ws/2013), in [2012 at NAACL](https://akbc.ws/2012); and in 2010 as a stand-alone event in Grenoble, France.
+AKBC continues a series of previous editions: as a workshop in [2026 at EMNLP](https://akbc.ws/2026), as an independent conference in [2022](https://akbc.ws/2022), [2021](https://akbc.ws/2021), [2020](https://akbc.ws/2020), and [2019](https://www.akbc.ws/2019); , [2017 at NIPS](https://akbc.ws/2017), in [2016 at NAACL](https://akbc.ws/2016), in [2014 at NIPS](https://akbc.ws/2014), in [2013 at CIKM](https://akbc.ws/2013), in [2012 at NAACL](https://akbc.ws/2012); and in 2010 as a stand-alone event in Grenoble, France.
 
 <a id="shared-task"></a>
 
