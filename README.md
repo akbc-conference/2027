@@ -1,2 +1,1 @@
-# 2027
-2027 workshop at ACL
+## AKBC 2026

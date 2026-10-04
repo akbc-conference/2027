@@ -1,0 +1,42 @@
+{% assign url = site.baseurl | prepend: site.url %}
+
+<li>
+    {% if include.p['archival_status'] != "" and include.p['archival_status'] != "Non-Archival" %}
+    <!-- <a href="{{- url -}}/papers/{{- include.p.forum_id -}}"> -->
+    <a href="{{- url -}}/papers/{{- include.p.pdf -}}">
+    {% else %}
+    <!-- <a href="https://openreview.net/forum?id={{-include.p.forum_id-}}"> -->
+    <a href="{{- include.p.link -}}">
+    {% endif %}
+        {{- include.p.title -}}
+    </a>
+
+    <!-- <a href="https://openreview.net/forum?id={{-include.p.forum_id-}}">
+            {{- include.p.title -}}
+    </a> -->
+    <!-- PDF + HTML 
+        (<a href="https://openreview.net{{-include.p.pdf-}}">PDF</a>
+    -->
+    {% if include.p.pdf != "" %}
+        {% if include.p['archival_status'] != "" and include.p['archival_status'] != "Non-Archival" %}
+            (<a href="{{- url -}}/assets/pdfs/{{- include.p.pdf -}}.pdf">PDF</a>
+            {%- if include.p.html -%}
+            , <a href="{{-include.p.html-}}">Website</a>
+            {%- endif -%})
+            {% endif %}
+        {% endif %}
+    <br>
+    <!-- Authors -->
+    <i>
+        {% assign num = include.p.authors | size %}
+        {% for i in (0..num) limit: num %}
+                {{ include.p.authors[i] }}
+            {%- if forloop.last == true -%}
+            .
+            {%- else -%}
+            , 
+            {%- endif -%}
+        {% endfor %}
+    </i>
+    <br>
+</li>

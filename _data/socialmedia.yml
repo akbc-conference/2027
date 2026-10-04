@@ -1,0 +1,54 @@
+- name: GitHub
+  url: https://github.com/akbc-conference
+  class: icon-github
+  title: "Github organization of AKBC"
+
+- name: YouTube
+  url: https://www.youtube.com/channel/UCzKZf82vIuI8uMazyL0LIvQ/
+  class: icon-youtube
+  title: "Youtube channel of AKBC conference"
+
+- name: Twitter
+  url: https://twitter.com/akbc_conf
+  class: icon-twitter
+  title: "Twitter handle of AKBC conference"
+
+- name: LinkedIn
+  url: https://www.linkedin.com/company/akbc-workshop/
+  class: icon-linkedin
+  title: "LinkedIn page of AKBC workshop"
+
+# - name: Mixcloud
+#   url: http://www.mixcloud.com/phlow/
+#   class: icon-cloud
+#   title: "Mixe, was sonst?"
+
+# - name: Phlow YouTube Google+
+#   url: https://plus.google.com/u/0/+Phlow
+#   class: icon-googleplus
+#   title: "YouTube Google+"
+
+# - name: Facebook
+#   url: http://www.facebook.com/
+#   class: icon-facebook
+#   title: ""
+
+# - name: Soundcloud
+#   url: http://soundcloud.com/
+#   class: icon-soundcloud
+#   title: ""
+
+# - name: Instagram
+#   url: http://instagram.com/
+#   class: icon-instagram
+#   title: ""
+
+# - name: Pinterest
+#   url: http://www.pinterest.com/
+#   class: icon-pinterest
+#   title: ""
+
+# - name: Xing
+#   url: https://www.xing.com/profile/
+#   class: icon-xing
+#   title: Xing Profil

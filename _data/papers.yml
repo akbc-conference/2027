@@ -1,0 +1,83 @@
+# Accepted papers at AKBC 2026 (alphabetical by title).
+# Author names as registered on OpenReview.
+
+- title: "A Rhetorical Citation Event Graph Model for Characterizing Scientific Findings: Resource Construction and Application to Plant Health"
+  authors: "Anne-Sophie Foussat, Robert Bossy, Vincent Guigue, Sauvion, Claire Nédellec"
+
+- title: "A Temporal Knowledge Graph for Music Festival Lineup Forecasting"
+  authors: "Julia Gastinger, Thilo Ignaz Dieing, Christian Meilicke, Heiner Stuckenschmidt"
+
+- title: "Auditing a KB Elicitation of Frontier LLM Knowledge: A Multi-dimensional Analysis of GPTKB v1.5"
+  authors: "Shrestha Ghosh, Luca Giordano, Yujia Hu, Tuan-Phong Nguyen, Simon Razniewski"
+
+- title: "Can We Do Interpretable NLI with Graphs Based on Atomic Propositions?"
+  authors: "Younes Boufouss, Luc Pommeret, Thomas Gerald, Patrick Paroubek, Sophie Rosset"
+
+- title: "Distill-RE: Few-Shot Relation Extraction via Teacher LLM Reasoning Distillation"
+  authors: "Danielle Sullivan-Pao, Sheila Alemany, Olga Simek"
+
+- title: "Edge Knowledge Bases for Sustainable and Explainable AI"
+  authors: "Aparna S. Varde, Emil Njor, Francesco Daghero, Mahyar Tourchi Moghaddam"
+
+- title: "Epistemic Twins: Enabling a Symbolic Science of Language Model Knowledge"
+  authors: "Simon Razniewski, Shrestha Ghosh, Luca Giordano, Yujia Hu, Tuan-Phong Nguyen"
+
+- title: "EventSocraticKG: Event-Centric Knowledge Graph Construction for Narrative Retrieval-Augmented Generation"
+  authors: "William Rosengren"
+
+- title: "Evidence-Carrying Claims: Fail-Closed Verification Gates for Language-Model-Assisted Research as Knowledge Base Construction"
+  authors: "Rob Sneiderman"
+
+- title: "Evidence-Guided Schema Normalization for Temporal Tabular Reasoning"
+  authors: "Ashish Thanga, Vibhu Dixit, Abhilash Shankarampeta, Vivek Gupta"
+
+- title: "Explaining Textual Entailment with Lexical Entailments: Using LLMs to Supply Lexical Relations for Formal Proofs"
+  authors: "Jorryt de Jong, Stefan Moraca, Ettore Cesari, Lasha Abzianidze"
+
+- title: "FALCON: A Model and Dataset Agnostic Framework for Synthetic Data Generation for NL2SQL Pairs"
+  authors: "Darian Lee, Shannon Rumsey, Jack St. Clair, Xinyi Tang, Aditya Bansal, Yuanming Shi"
+
+- title: "Fine-Grained Table Retrieval Through the Lens of Complex Queries"
+  authors: "Wojciech Kosiuk, Xingyu Ji, Yeounoh Chung, Fatma Ozcan, Madelon Hulsebos"
+
+- title: "From Imitation to Reasoning: Sample-Efficient LLM Agents for Knowledge Graph Completion"
+  authors: "Chenjun Zheng, Zhe Wang, Zhigang Wang, Wenjia Zhang, Xiaolin Yang"
+
+- title: "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion"
+  authors: "John Seon Keun Yi, Joshua R Minot, Dokyun Lee"
+
+- title: "GRACE-Mem: Graph Retrieval with Agentic Curation of Evidence for Long-Term Conversational Memory"
+  authors: "Heng Wang, Xuan Ni Chen, Pei-Yun Chang, Chih-Hsi Chen, Hsin-Yu Huang, Chienyi Lin, I-Ling Chung"
+
+- title: "HTTP for Meaning: Towards Linguistically Complete Knowledge Representations with Knowledge State Protocol"
+  authors: "Ian Yuen"
+
+- title: "LMKG: A Flexible Method for Ontology-Aware Knowledge Graph Extraction from Text"
+  authors: "Gianmarco Pappacoda, Paolo Torroni"
+
+- title: "MUSART: A Scalable Multi-Domain Benchmark for Measuring Factual Recall in Open-Weight Language Models"
+  authors: "Rajaa El Hamdani, Thomas Bonald, Fragkiskos D. Malliaros"
+
+- title: "Operationalization Is Part of the Claim: Operationalization-Aware Knowledge in the Era of Generated Answers"
+  authors: "Jan-Christoph Kalo"
+
+- title: "Revisiting RAG Retrievers: An Information Theoretic Benchmark"
+  authors: "Wenqing Zheng, Dmitri Kalaev, Noah Fatsi, Daniel Barcklow, Owen Reinert, Igor Melnyk, Senthil Kumar, C. Bayan Bruss"
+
+- title: "Scaling E-Commerce Attribute Extraction with Parallel Decoding"
+  authors: "Nikhita Vedula, Dushyanta Dhyani, Bryan Wang, Shervin Malmasi"
+
+- title: "Schema-Guided Extraction of Interaction Knowledge Bases from Narrative Text: A Folktale Case Study"
+  authors: "Sergey Kovalchuk, Anastasia Ugleva, Oleg Kubryak"
+
+- title: "The Canonical Order Problem: When Large Language Models Are Unreliable Knowledge Bases for Multi-Valued Relations"
+  authors: "Timo Pierre Schrader, Annemarie Friedrich, Simon Razniewski, Lukas Lange"
+
+- title: "When Relevance Is Not Evidence: A Controlled Diagnostic of Claim-Conditioned Support Ranking"
+  authors: "Ke Lu"
+
+- title: "When String Matching Stands In for a Knowledge Base: A Role-Aware Audit of WikiBigEdit"
+  authors: "Edison Yang, Neel Marripalapu, Akshaj Agadi"
+
+- title: "Zero-Shot Relation Classification with Large Language Models: Binary Prompting and Relevance Elicitation"
+  authors: "Sheila Alemany, Danielle Sullivan-Pao, Olga Simek"
