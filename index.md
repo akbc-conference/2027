@@ -1,7 +1,3 @@
----
-layout: null
----
-<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -271,8 +267,8 @@ layout: null
               <li>Jan-Christoph Kalo<sup>1</sup></li>
               <li>Russa Biswas<sup>2</sup></li>
               <li>Simon Razniewski<sup>3</sup></li>
-              <li><strong>Fabian M. Suchanek<sup>4</sup></strong></li>
-              <li><strong>Andrew McCallum<sup>5</sup></strong></li>
+              <li>Fabian M. Suchanek<sup>4</sup></li>
+              <li><strong>Andrew McCallum<sup>5</sup></li>
             </ul>
             <ol class="affiliations">
               <li>University of Amsterdam</li>
