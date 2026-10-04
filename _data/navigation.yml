@@ -1,4 +1,4 @@
-- title: AKBC 2026
+- title: AKBC 2027
   url: "/"
   side: left
   dropdown:
@@ -9,28 +9,8 @@
   - title: "AKBC 2020"
     url: "https://akbc.ws/2020"
 
-- title: Call for Papers
-  url: "/#cfp"
-  side: left
-
 - title: Dates
   url: "/#dates"
-  side: left
-
-- title: Accepted Papers
-  url: "/#papers"
-  side: left
-
-- title: Shared Task
-  url: "/shared-task.html"
-  side: left
-
-- title: Speakers
-  url: "/#speakers"
-  side: left
-
-- title: Schedule
-  url: "/#schedule"
   side: left
 
 - title: Organization
