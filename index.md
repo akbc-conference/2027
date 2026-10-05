@@ -2,16 +2,18 @@
 title: Automated Knowledge Base Construction 2027
 display_title: "12th Workshop on<br>Automated Knowledge Base Construction"
 layout: page-fullwidth
+header:
+  image_fullwidth: "kyoto.jpg"
 permalink: /
 ---
 
-<style>
+<!--style>
 #masthead-no-image-header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("[https://commons.wikimedia.org/wiki/Special:FilePath/Kyoto.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6b/Kyoto%2C_Japan_%2849667780482%29.jpg");
 	background-position: center;
 	background-size: cover;
 }
-</style>
+</style -->
 
 Co-located with [ACL 2027](https://2027.aclweb.org/) in Kyoto, Japan &mdash; **August 18 or 19, 2027**. The exact workshop day is TBD.
 
@@ -39,14 +41,6 @@ Deadlines and other important dates: **TBD**.
 
 <ul class="organizers-list">
 {% for o in site.data.organizers %}
-  <li>{% if o.url %}<a href="{{ o.url }}">{{ o.name }}</a>{% else %}{{ o.name }}{% endif %}<sup>{{ o.number }}</sup></li>
+  <li>{% if o.url %}<a href="{{ o.url }}">{{ o.name }}</a>{% else %}{{ o.name }}{% endif %} ({{ o.location }})</li>
 {% endfor %}
 </ul>
-
-### Affiliations
-
-<ol>
-{% for o in site.data.organizers %}
-  <li>{{ o.location }}</li>
-{% endfor %}
-</ol>
