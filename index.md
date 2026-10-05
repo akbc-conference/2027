@@ -2,8 +2,8 @@
 title: Automated Knowledge Base Construction 2027
 display_title: "12th Workshop on<br>Automated Knowledge Base Construction"
 layout: page-fullwidth
-header:
-  image_fullwidth: "assets/img/kyoto.jpg"
+image:
+  title: "kyoto.jpg"
 permalink: /
 ---
 
