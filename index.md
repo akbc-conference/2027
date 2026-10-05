@@ -27,9 +27,7 @@ Deadlines and other important dates: **TBD**.
 
 <a name="organization"></a>
 
-## Organization
-
-### Organizing Committee
+## Organizing Committee
 
 <ul class="organizers-list">
 {% for o in site.data.organizers %}
