@@ -14,7 +14,7 @@
   side: left
 
 - title: Shared Task
-  url: "/#shared-task"
+  url: "/shared-task/"
   side: left
 
 - title: Organization
