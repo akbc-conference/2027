@@ -4,9 +4,9 @@ layout: page-fullwidth
 permalink: /shared-task/
 ---
 
-# AKBC 2027 Shared Task
-
 AKBC 2027 will include a shared task on using large language models (LLMs) for knowledge base (KB) construction. Further task details, rules, and participation instructions will be announced soon.
+
+The task will be based on the paper [Beyond Questions: Evaluating the Stated Knowledge of LLMs](https://arxiv.org/abs/2605.26937) by Luca Giordano and Simon Razniewski.
 
 ## Tentative Timeline
 

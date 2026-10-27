@@ -17,7 +17,7 @@ AKBC continues a series of previous editions: as a workshop in [2026 at EMNLP](h
 
 ## Shared Task
 
-AKBC 2027 will include a shared task on using large language models (LLMs) for knowledge base (KB) construction. Further details will be announced soon.
+AKBC 2027 will include a shared task on using large language models (LLMs) for knowledge base (KB) construction. See the [shared task page]({{ '/shared-task/' | relative_url }}) for the tentative timeline and further details.
 
 <a name="dates"></a>
 
